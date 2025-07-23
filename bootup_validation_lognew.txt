@@ -1,0 +1,26 @@
+
+==== Arduino Bootup Validation Log ====
+Timestamp     : 2025-07-23 16:49:54
+COM Port      : COM10
+Expected Line : Firmware Version: v1.0.3
+Matched Line  : N/A
+Result        : FAIL
+Reason        : Firmware version missing
+========================================
+
+==== Arduino Bootup Validation Log ====
+Timestamp     : 2025-07-23 16:51:02
+COM Port      : COM10
+Expected Line : Firmware Version: v1.0.3
+Matched Line  : Firmware Version: v1.0.3
+Result        : PASS
+========================================
+
+==== Arduino Bootup Validation Log ====
+Timestamp     : 2025-07-23 16:52:57
+COM Port      : N/A
+Expected Line : Firmware Version: v1.0.3
+Matched Line  : N/A
+Result        : FAIL
+Reason        : No Arduino COM port detected
+========================================
